@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.5.0/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.5.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'https://musicians-relentlesscoder.c9users.io.' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /home/ubuntu/workspace/package.json
+5 warn package.json sleater@1.0.0 No description
+6 warn package.json sleater@1.0.0 No README data
+7 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+8 silly cache add args [ 'https://musicians-relentlesscoder.c9users.io.', null ]
+9 verbose cache add spec https://musicians-relentlesscoder.c9users.io.
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'https://musicians-relentlesscoder.c9users.io.',
+10 silly cache add   scope: null,
+10 silly cache add   name: null,
+10 silly cache add   rawSpec: 'https://musicians-relentlesscoder.c9users.io.',
+10 silly cache add   spec: 'https://musicians-relentlesscoder.c9users.io.',
+10 silly cache add   type: 'remote' }
+11 silly mapToRegistry name https://musicians-relentlesscoder.c9users.io.
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'https://musicians-relentlesscoder.c9users.io.',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   name: null,
+14 silly mapToRegistry   rawSpec: 'https://musicians-relentlesscoder.c9users.io.',
+14 silly mapToRegistry   spec: 'https://musicians-relentlesscoder.c9users.io.',
+14 silly mapToRegistry   type: 'remote' }
+15 silly mapToRegistry uri https://musicians-relentlesscoder.c9users.io.
+16 verbose addRemoteTarball https://musicians-relentlesscoder.c9users.io. not in flight; adding
+17 verbose addRemoteTarball [ 'https://musicians-relentlesscoder.c9users.io.', null ]
+18 info retry fetch attempt 1 at 2:05:56 AM
+19 info attempt registry request try #1 at 2:05:56 AM
+20 http fetch GET https://musicians-relentlesscoder.c9users.io./
+21 verbose request id 399d010e48d178c0
+22 http fetch 404 https://musicians-relentlesscoder.c9users.io.
+23 error fetch failed https://musicians-relentlesscoder.c9users.io.
+24 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+25 info retry fetch attempt 2 at 2:06:06 AM
+26 info attempt registry request try #1 at 2:06:06 AM
+27 http fetch GET https://musicians-relentlesscoder.c9users.io./
+28 http fetch 404 https://musicians-relentlesscoder.c9users.io.
+29 error fetch failed https://musicians-relentlesscoder.c9users.io.
+30 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+31 info retry fetch attempt 3 at 2:07:06 AM
+32 info attempt registry request try #1 at 2:07:06 AM
+33 http fetch GET https://musicians-relentlesscoder.c9users.io./
+34 http fetch 404 https://musicians-relentlesscoder.c9users.io.
+35 error fetch failed https://musicians-relentlesscoder.c9users.io.
+36 verbose stack Error: fetch failed with status code 404
+36 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+36 verbose stack     at emitOne (events.js:77:13)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at Request.onRequestResponse (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/request/request.js:977:10)
+36 verbose stack     at emitOne (events.js:77:13)
+36 verbose stack     at ClientRequest.emit (events.js:169:7)
+36 verbose stack     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:433:21)
+36 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:103:23)
+36 verbose stack     at TLSSocket.socketOnData (_http_client.js:322:20)
+36 verbose stack     at emitOne (events.js:77:13)
+37 verbose cwd /home/ubuntu/workspace
+38 error Linux 4.2.0-c9
+39 error argv "/home/ubuntu/.nvm/versions/node/v4.5.0/bin/node" "/home/ubuntu/.nvm/versions/node/v4.5.0/bin/npm" "install" "--save" "https://musicians-relentlesscoder.c9users.io."
+40 error node v4.5.0
+41 error npm  v2.15.9
+42 error fetch failed with status code 404
+43 error If you need help, you may report this error at:
+43 error     <https://github.com/npm/npm/issues>
+44 verbose exit [ 1, true ]
